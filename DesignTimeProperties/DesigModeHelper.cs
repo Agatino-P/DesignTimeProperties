@@ -37,7 +37,7 @@ namespace DesignModeHelpers
             .RegisterAttached("Background", typeof(Brush), typeof(DModeProp), new PropertyMetadata(BackgroundChanged));
 
         public static readonly DependencyProperty FontSizeProperty = DependencyProperty
-            .RegisterAttached("FontSize", typeof(double), typeof(DModeProp), new PropertyMetadata(14d,FontSizeChanged) );
+            .RegisterAttached("FontSize", typeof(double), typeof(DModeProp), new PropertyMetadata(FontSizeChanged));
 
 
         public static Brush GetBackground(DependencyObject dependencyObject)

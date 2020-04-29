@@ -14,7 +14,7 @@
                 Content="20 d:43+bg" FontSize="43" />
         <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
                 dmode:DModeProp.Background="Pink" Background="LightPink" 
-                Content="43.bg" FontSize="43" />
+                Content="43.bg" />
         <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
                 dmode:DModeProp.FontSize="43" Content="Bmode FS" />
         <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
