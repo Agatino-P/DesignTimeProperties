@@ -1,0 +1,24 @@
+﻿<Window x:Class="DesignTimeProperties.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:dmode="clr-namespace:DesignModeHelpers"
+        xmlns:local="clr-namespace:DesignTimeProperties"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="MainWindow" Width="800" Height="450" mc:Ignorable="d">
+    <StackPanel Orientation="Horizontal">
+
+        <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                dmode:DModeProp.Background="WhiteSmoke"
+                dmode:DModeProp.FontSize="20" Background="Gold"
+                Content="20 d:43+bg" FontSize="43" />
+        <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                dmode:DModeProp.Background="Pink" Background="LightPink" 
+                Content="43.bg" FontSize="43" />
+        <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                dmode:DModeProp.FontSize="43" Content="Bmode FS" />
+        <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                Content="None" />
+
+    </StackPanel>
+</Window>
